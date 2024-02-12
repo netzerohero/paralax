@@ -1,6 +1,14 @@
-# RP6502 VSCode Scaffolding for CC65
+# RP6502 Parallax Scrolling using the RP6502 CC65 VSCode Scaffolding
 
-This is scaffolding for a new Picocomputer 6502 software project.
+This is scaffolding for a Picocomputer 6502 software project demoing: Parallax Scrolling
+
+https://en.wikipedia.org/wiki/Parallax_scrolling
+
+Credit for the source code to: https://github.com/brentward/paralax
+
+Demo clearly showcases the 3-video planes available on the picocomputer's video system,
+using sprite and bitmapped graphics. The source offers an opportunity to learn by its example.
+Parallax bit manipulation is performed by the 6502, not the pico.
 
 ### Linux Tools Install:
  * [VSCode](https://code.visualstudio.com/). This has its own installer.
@@ -23,10 +31,7 @@ This is scaffolding for a new Picocomputer 6502 software project.
  * `winget install -e --id Git.Git`.
 
 ### Getting Started:
-Go to the [GitHub template](https://github.com/picocomputer/vscode-cc65) and
-select "Use this template" then "Create a new repository". GitHub will make a
-clean project for you to start with. Then you can download the repository
-and open the files.
+Clone the repository and build the project with VSCode.
 
 ```
 $ git clone [path_to_github]
