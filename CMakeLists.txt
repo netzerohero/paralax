@@ -4,8 +4,8 @@ project(MY-RP6502-PROJECT C ASM)
 
 add_subdirectory(tools)
 
-add_executable(hello)
-rp6502_executable(hello)
-target_sources(hello PRIVATE
-    src/main.c
+add_executable(paralax)
+rp6502_executable(paralax)
+target_sources(paralax PRIVATE
+    src/paralax.c
 )
