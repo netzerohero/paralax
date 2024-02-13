@@ -7,7 +7,7 @@ https://en.wikipedia.org/wiki/Parallax_scrolling
 Credit for the source code to: https://github.com/brentward/paralax
 
 Demo clearly showcases the 3-video planes available on the picocomputer's video system,
-using sprite and bitmapped graphics. The source offers an opportunity to learn by its example.
+using "mode-3" bitmapped graphics. The source offers an opportunity to learn by its example.
 Parallax bit manipulation is performed by the 6502, not the pico.
 
 ### Linux Tools Install:
