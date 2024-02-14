@@ -5,6 +5,8 @@
 #include <stdint.h>
 #include <fcntl.h>
 
+
+#if 0
 int load(const char *name)
 {
     int fd, result;
@@ -30,14 +32,6 @@ int load(const char *name)
     xram0_struct_set(0xFF00, vga_mode3_config_t, y_pos_px, 0);
 }
 
-void clear()
-{
-    unsigned i;
-    RIA.addr0 = 0;
-    RIA.step0 = 1;
-    for (i = 0; i < 57600u; i++)
-        RIA.rw0 = 0;
-}
 
 void box(unsigned qty)
 {
@@ -73,6 +67,18 @@ void box(unsigned qty)
         }
     }
 }
+#endif /*0*/
+
+
+void clear()
+{
+    unsigned i;
+    RIA.addr0 = 0;
+    RIA.step0 = 1;
+    for (i = 0; i < 57600u; i++)
+        RIA.rw0 = 0;
+}
+
 
 void scroll(bool x_scroll, bool y_scroll)
 {
