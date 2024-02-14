@@ -8,7 +8,8 @@ Credit for the source code to: https://github.com/brentward/paralax
 
 Demo clearly showcases the 3-video planes available on the picocomputer's video system,
 using "mode-3" bitmapped graphics. The source offers an opportunity to learn by its example.
-Parallax bit manipulation is performed by the 6502, not the pico.
+The parallax affect is orchestrated and controlled by the 6502 with the assistance of scrolling effects 
+provided within the pico-VGA.
 
 ### Linux Tools Install:
  * [VSCode](https://code.visualstudio.com/). This has its own installer.
